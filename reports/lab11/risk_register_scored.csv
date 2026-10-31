@@ -1,0 +1,9 @@
+id,scenario,affected,likelihood_1_4,impact_1_4,control,owner,evidence,residual,priority
+R02,Brecha de sensibilidad entre grupos protegidos G1 y G2,Affected person,3,3,Auditoria Fairlearn y puerta max_recall_gap 0.16,Data Scientist,reports/lab12/logistic/fairness_by_group.csv,medium,9
+R01,Falso negativo deja caso critico sin revision prioritaria,Affected person,2,4,Umbral minimo de recall 0.68 y revision por reglas,Product Owner,reports/lab12/logistic/global_metrics.json,medium,8
+R07,Uso fuera de alcance para declarar emergencias o elegibilidad automatica,Affected person,2,4,Restriccion explicita en governance.yml y supervisión humana,Institutional Owner,configs/governance.yml,medium,8
+R03,Sesgo de automatizacion del operador al seguir el score sin critero,Operator,2,3,Advertencia en interfaz y obligacion de justificar decision,Product Owner,app.py,low,6
+R06,Deriva temporal de datos degrada el desempeno en nuevos casos,Institutional owner,3,2,Corte temporal estricto y monitoreo trimestral con rollback,ML Engineer,reports/lab13/deployment_decision.json,medium,6
+R04,Inclusion accidental de identificadores personales directos,Affected person,1,4,Bloqueo automatico en validate_schema contra PROHIBITED,Data Engineer,tests/test_privacy.py,low,4
+R05,Interpretacion erronea de subgrupos interseccionales con bajo soporte,Affected person,2,2,Advertencia de conteo minimo en fairness_intersectional,Data Scientist,reports/lab12/logistic/fairness_intersectional.csv,low,4
+R08,Complejidad excesiva del modelo incrementa latencia y huella computacional,Data team,1,3,Puertas Green AI de max_latency_ms 500 y max_model_kb 1024,ML Engineer,reports/lab13/deployment_decision.json,low,3
