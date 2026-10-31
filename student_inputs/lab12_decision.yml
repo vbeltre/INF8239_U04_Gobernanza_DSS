@@ -1,6 +1,6 @@
-priority_harm: REPLACE
-primary_metric: REPLACE
-tolerance: REPLACE
-evidence: REPLACE
-limitation: REPLACE
-recommendation: REPLACE
+priority_harm: Desatencion de casos prioritarios reales por falso negativo en grupos vulnerables
+primary_metric: recall y brecha de sensibilidad (recall_gap) entre los grupos G1 y G2
+tolerance: Recall global minimo de 0.68 y brecha maxima permitida de 0.16 en recall y FPR
+evidence: Comparacion en reports/lab12/logistic y reports/lab12/tree sobre 160 casos de prueba
+limitation: Subgrupos interseccionales como G2|45-59 (n=8) tienen soporte insuficiente y no prueban causalidad
+recommendation: Preferir regresion logistica por eficiencia Green AI y mantener estado REVIEW con supervision humana
