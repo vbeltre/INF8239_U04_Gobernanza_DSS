@@ -1,9 +1,9 @@
-purpose: REPLACE
-assisted_decision: REPLACE
-users: REPLACE
-affected_population: REPLACE
-owner: REPLACE
-non_predictive_alternative: REPLACE
-out_of_scope_use: REPLACE
-withdrawal_condition: REPLACE
-appeal_mechanism: REPLACE
+purpose: Priorizar casos territoriales sinteticos para revision tecnica humana preventiva
+assisted_decision: Ordenamiento de casos para inspeccion técnica presencial no punitiva
+users: Analistas y operadores de revision territorial institucional
+affected_population: Hogares y comunidades representadas en los registros territoriales
+owner: Direccion de Gobernanza y Operaciones (Product Owner)
+non_predictive_alternative: Regla determinista basada en puntaje de infraestructura e incidentes previos
+out_of_scope_use: Intervencion automatica, declaracion de emergencia, sancion o elegibilidad social
+withdrawal_condition: Brecha de recall o FPR mayor a 0.16 entre grupos o fallo en puertas de calidad
+appeal_mechanism: Solicitud formal de revision humana ante mesa tecnica con respuesta en 48 horas

@@ -1,5 +1,5 @@
 stakeholder,benefit,harm,power,participation
-Affected person,REPLACE,REPLACE,low,REPLACE
-Operator,REPLACE,REPLACE,medium,REPLACE
-Institutional owner,REPLACE,REPLACE,high,REPLACE
-Data team,REPLACE,REPLACE,medium,REPLACE
+Affected person,Atencion preventiva oportuna en zonas vulnerables,Falsa alarma o desatencion por falso negativo,low,Mecanismo de apelacion y consulta comunitaria
+Operator,Priorizacion estructurada de carga de trabajo,Sesgo de automatizacion o sobrecarga de alertas,medium,Retroalimentacion operativa y reporte de fallos
+Institutional owner,Asignacion trazable y auditada de recursos de revision,Riesgo reputacional y responsabilidad por sesgo,high,Aprobacion de politicas umbrales y retiro
+Data team,Estandarizacion reproducible de metricas y contratos,Presion por desplegar sin soporte suficiente,medium,Auditoria tecnica de equidad y mantenimiento de pruebas
